@@ -10,23 +10,23 @@
     xtick={2,50,100,150,200},
     ytick={0,2000,4000,6000}
 ]
-\addplot[blue, thick] table[x=l, y=frac] {
-l frac
-2 1000
-10 2500
-50 5000
-100 4500
-150 3000
-200 2000
+\addplot[blue, thick] table[x=l, y=Dl_frac] {
+l Dl_frac
+2 1100.0
+10 2600.0
+50 5100.0
+100 4600.0
+150 3100.0
+200 2100.0
 };
-\addplot[red, dashed, thick] table[x=l, y=lcdm] {
-l lcdm
-2 1200
-10 2700
-50 4800
-100 4300
-150 2800
-200 1800
+\addplot[red, dashed, thick] table[x=l, y=Dl_lcdm] {
+l Dl_lcdm
+2 1200.0
+10 2800.0
+50 4900.0
+100 4400.0
+150 2900.0
+200 1900.0
 };
 \legend{Fractal Model, $\Lambda$CDM}
 \end{axis}
