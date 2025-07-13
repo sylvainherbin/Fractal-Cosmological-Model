@@ -13,12 +13,19 @@ Key features:
 
 ## 🔍 Repository Contents
 
-.
+. 
 ├── main.tex                # Main LaTeX document
-├── figures/                # Directory for figures
-├── Fractal_Cosmological_Model.pdf  # Compiled PDF
-├── .zenodo.json            # Zenodo metadata
-├── CITATION.cff            # Citation metadata
+├── figures/                # Directory for figures 
+│   ├── cmb_spectrum.tex    # CMB power spectrum comparing the fractal model to \LambdaCDM 
+│   ├── fibonacci_structure.tex # Structure of multiverses via the Fibonacci sequence 
+│   ├── operator_opp.tex    # Representation of the \(\Opp\) operator and antagonism 
+│   ├── observer_coupling.tex # Observer-metric coupling via \rho_n 
+│   └── chi2_comparison.tex # Comparison of \chi^2 values for l < 30 (Planck) 
+├── data/                   # Directory for data 
+│   └── cmb_power_spectrum.dat # Simulated CMB power spectrum data 
+├── Fractal_Cosmological_Model.pdf  # Compiled PDF 
+├── .zenodo.json            # Zenodo metadata 
+├── CITATION.cff            # Citation metadata 
 └── README.md
 
 
@@ -44,7 +51,7 @@ Key features:
   title        = {{Fractal Cosmological Model: Unification via 
                    Antagonism and Fibonacci Structure}},
   month        = jul,
-  year         = 2024,
+  year         = 2025,
   publisher    = {Zenodo},
   version      = {1.0},
   doi          = {10.5281/zenodo.15863407},
@@ -59,4 +66,3 @@ Key features:
 
 ## ⚖️ License
 [![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-
