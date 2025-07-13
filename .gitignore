@@ -1,0 +1,9 @@
+# Exclure les fichiers temporaires LaTeX
+*.aux
+*.log
+*.out
+*.toc
+
+# Mais INCLURE les figures et PDF final
+!figures/
+!Fractal_Cosmological_Model.pdf
