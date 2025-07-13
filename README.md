@@ -31,6 +31,7 @@ Key features:
 ### Genesis Operator
 ```math
 \mathcal{O}(0) = 1, \quad \mathcal{O}(1) = -1, \quad F_n = F_{n-1} + F_{n-2}
+```
 
 
 ## 🌌 Fractal Dimension
@@ -58,4 +59,4 @@ Key features:
 
 ## ⚖️ License
 [![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-```
+
