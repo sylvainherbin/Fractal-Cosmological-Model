@@ -1,0 +1,29 @@
+{
+  "creators": [
+    {
+      "name": "Herbin, Sylvain",
+      "affiliation": "Independent Researcher",
+      "orcid": "0009-0001-3390-5012"
+    }
+  ],
+  "title": "Fractal Cosmological Model: Unification via Antagonism and Fibonacci Structure",
+  "description": "Cosmological model unifying GR, QM and fractal structures through Fibonacci sequence",
+  "keywords": [
+    "cosmology",
+    "fractal",
+    "fibonacci",
+    "general relativity",
+    "quantum mechanics"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementedBy",
+      "identifier": "https://github.com/sylvainherbin/Fractal-Cosmological-Model"
+    },
+    {
+      "relation": "isDocumentedBy",
+      "identifier": "https://sylvainherbin.github.io/cosmo/"
+    }
+  ],
+  "license": "cc-by-4.0"
+}
