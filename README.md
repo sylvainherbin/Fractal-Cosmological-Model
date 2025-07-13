@@ -39,6 +39,13 @@ Key features:
 ## 🌌 Fractal Dimension
 \dim_{\mathscr{F}}(\mathcal{U}_n) \approx \phi \approx 1.618
 
+## Scripts
+- `scripts/fibonacci_ratio.py`: Generates the plot of the Fibonacci ratio \( |F_n/F_{n-1}| \) converging to \( \phi \approx 1.618 \).
+  - Requirements: Python 3, numpy, matplotlib
+  - Run: `python fibonacci_ratio.py`
+  - Output: `figures/fibonacci_ratio.png`
+
+
 ## 📚 How to cite
 @software{Herbin_Fractal_Cosmological_Model_2024,
   author       = {Herbin, Sylvain},
