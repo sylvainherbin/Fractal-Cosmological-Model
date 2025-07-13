@@ -10,24 +10,19 @@ Key features:
 - Observer-metric coupling integrating the observer
 - Testable predictions: \(\alpha \approx 1.618 \pm 0.1\) (CMB), \(\gamma \approx 1.382 \pm 0.1\) (galaxies)
 - Anomaly reduction (\(\chi^2 \downarrow 15\%\), \(p = 0.002\) at \(3\sigma\)) compared to \(\Lambda\)CDM
-
+  
 ## 🔍 Repository Contents
-
-. 
-├── main.tex                # Main LaTeX document
-├── figures/                # Directory for figures 
-│   ├── cmb_spectrum.tex    # CMB power spectrum comparing the fractal model to \LambdaCDM 
-│   ├── fibonacci_structure.tex # Structure of multiverses via the Fibonacci sequence 
-│   ├── operator_opp.tex    # Representation of the \(\Opp\) operator and antagonism 
-│   ├── observer_coupling.tex # Observer-metric coupling via \rho_n 
-│   └── chi2_comparison.tex # Comparison of \chi^2 values for l < 30 (Planck) 
-├── data/                   # Directory for data 
-│   └── cmb_power_spectrum.dat # Simulated CMB power spectrum data 
-├── Fractal_Cosmological_Model.pdf  # Compiled PDF 
-├── .zenodo.json            # Zenodo metadata 
-├── CITATION.cff            # Citation metadata 
-└── README.md
-
+- `main.tex`                # Main LaTeX document
+- `figures/cmb_spectrum.tex` # CMB power spectrum comparing the fractal model to \(\Lambda\)CDM
+- `figures/fibonacci_structure.tex` # Structure of multiverses via the Fibonacci sequence
+- `figures/operator_opp.tex` # Representation of the \(\Opp\) operator and antagonism
+- `figures/observer_coupling.tex` # Observer-metric coupling via \(\rho_n\)
+- `figures/chi2_comparison.tex` # Comparison of \(\chi^2\) values for \(l < 30\) (Planck)
+- `data/cmb_power_spectrum.dat` # Simulated CMB power spectrum data
+- `Fractal_Cosmological_Model.pdf`  # Compiled PDF
+- `.zenodo.json`            # Zenodo metadata
+- `CITATION.cff`            # Citation metadata
+- `README.md`
 
 ## 🧪 Testable Predictions
 1. Power-law index in CMB: \(\alpha \approx 1.618 \pm 0.1\)
