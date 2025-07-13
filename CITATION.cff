@@ -1,0 +1,12 @@
+```yaml
+cff-version: 1.2.0
+message: "Please cite this work using the following metadata"
+title: "Fractal Cosmological Model: Unification via Antagonism and Fibonacci Structure"
+authors:
+  - family-names: Herbin
+    given-names: Sylvain
+    orcid: "https://orcid.org/0009-0001-3390-5012"
+version: 1.0.0
+doi: 10.5281/zenodo.15863407
+date-released: 2024-07-11
+url: "https://github.com/sylvainherbin/Fractal-Cosmological-Model"
