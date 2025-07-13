@@ -40,10 +40,24 @@ Key features:
 \dim_{\mathscr{F}}(\mathcal{U}_n) \approx \phi \approx 1.618
 
 ## Scripts
-- `scripts/fibonacci_ratio.py`: Generates the plot of the Fibonacci ratio \( |F_n/F_{n-1}| \) converging to \( \phi \approx 1.618 \).
+- ### `scripts/fibonacci_ratio.py`
+- : Generates the plot of the Fibonacci ratio \( |F_n/F_{n-1}| \) converging to \( \phi \approx 1.618 \).
   - Requirements: Python 3, numpy, matplotlib
   - Run: `python fibonacci_ratio.py`
   - Output: `figures/fibonacci_ratio.png`
+ 
+  
+### `fractal_dimension.py`
+- **Purpose**: Numerically validates the fractal dimension \(\dim_{\mathscr{F}}(\mathcal{U}_n) \approx 1.618\) using a Fibonacci sequence with positive (\(0, 1, 1, 2, 3, 5, \ldots\)) and negative (\(0, -1, -1, -2, -3, -5, \ldots\)) branches.
+- **Key Features**:
+  - Implements \(\dim_{\mathscr{F}}(\mathcal{U}_n) = \lim_{n \to \infty} \frac{\ln |F_n / F_{n-1}|}{\ln \lambda}\) with \(\lambda = 1.346\).
+  - Generates `figures/fractal_dimension.png` to visualize convergence up to \(n = 20\).
+- **Updates (July 13, 2025)**:
+  - Reduced \(n_{\text{max}} = 20\) for improved readability and confirmed convergence.
+  - Integrated with `main.tex` after fixing duplicate figure issues.
+- **Usage**: Run in Python with required libraries (`numpy`, `matplotlib`, `os`). Example:
+  ```bash
+  python fractal_dimension.py
 
 
 ## 📚 How to cite
