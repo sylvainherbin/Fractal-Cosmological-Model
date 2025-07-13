@@ -50,8 +50,8 @@ Key features:
   publisher    = {Zenodo},
   version      = {1.0},
   doi          = {10.5281/zenodo.15863407},
-  url          = {https://doi.org/10.5281/zenodo.15863407}
-}
+  url          = {https://doi.org/10.5281/zenodo.15863407 }
+
 
 ## 🌐 Related Resources
 - **Full Paper**: [Fractal_Cosmological_Model.pdf](https://github.com/sylvainherbin/Fractal-Cosmological-Model/blob/main/Fractal_Cosmological_Model.pdf)
