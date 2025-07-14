@@ -54,7 +54,7 @@ Lₙ = √(-g) [R/(16πG) + φ ⟨ψₙ|O|ψₙ⟩]
   doi = {10.5281/zenodo.15863407},
   url = {https://doi.org/10.5281/zenodo.15863407}
 }
-
+```
 ## ⚖️ License
 
 This project is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
