@@ -1,58 +1,52 @@
-# Fractal Cosmological Model: Unification via Antagonism and Fibonacci Structure v1.2.2
+# Modèle Cosmologique Fractal : Unification par Antagonisme et Structure de Fibonacci v1.2.2
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15863407.svg)](https://doi.org/10.5281/zenodo.15863407)
 
-## 📜 Abstract
+## 📜 Résumé
 
-This fractal cosmological model unifies general relativity, quantum mechanics, and a fractal structure via a genesis operator (\(\mathcal{O}\)) that generates the Fibonacci sequence. It addresses current cosmological tensions, such as the Hubble constant (\(H_0 \approx 67-73 \, \text{km/s/Mpc}\)) and CMB anomalies, by structuring multiverses from a zero-dimensional initial state.
+Ce modèle cosmologique fractal unifie la relativité générale, la mécanique quantique et une structure fractale grâce à un opérateur de genèse (O) qui génère la suite de Fibonacci. Il répond aux tensions cosmologiques actuelles, comme la constante de Hubble (H₀ ≈ 67-73 km/s/Mpc) et les anomalies du CMB, en structurant des multivers à partir d’un état initial de dimension zéro.
 
-**Key Features**:
-- Zero-dimensional initial state structuring multiverses via temporal singularities.
-- Observer-metric coupling integrating the observer.
-- Anomaly reduction: \(\chi^2 \downarrow 81.63\%\) (\(p = 0.002\), \(3\sigma\)) compared to \(\Lambda\)CDM.
-- Testable predictions with Planck, CMB-S4, and Euclid.
+**Caractéristiques principales** :
+- État initial de dimension zéro structurant des multivers via des singularités temporelles.
+- Couplage observateur-métrique intégrant l’observateur.
+- Réduction des anomalies : χ² réduit de 81,63 % (p = 0,002, 3σ) par rapport à ΛCDM.
+- Prédictions testables avec Planck, CMB-S4 et Euclid.
 
-## 🔍 Repository Contents
+## 🔍 Contenu du Répertoire
 
-- `main.tex`: Main LaTeX document for *Physical Review Letters* submission.
-- `figures/`: Directory containing figures (e.g., fractal dimension convergence, CMB spectrum).
-- `scripts/`:
-  - `cmb_chi2_calculation.py`: Computes \(\chi^2\) for CMB power spectrum (Planck 2018).
-  - `galaxy_correlation_evolution.py`: Analyzes galaxy correlation with redshift evolution.
-- `Fractal_Cosmological_Model.pdf`: Compiled manuscript.
-- `.zenodo.json`: Metadata for Zenodo.
-- `CITATION.cff`: Citation metadata.
+- `main.tex` : Document LaTeX principal pour la soumission à *Physical Review Letters*.
+- `figures/` : Répertoire contenant les figures (ex. : convergence de la dimension fractale, spectre CMB).
+- `scripts/` :
+  - `cmb_chi2_calculation.py` : Calcule χ² pour le spectre de puissance CMB (Planck 2018).
+  - `galaxy_correlation_evolution.py` : Analyse la corrélation des galaxies avec l’évolution du redshift.
+- `Fractal_Cosmological_Model.pdf` : Manuscrit compilé.
+- `.zenodo.json` : Métadonnées pour Zenodo.
+- `CITATION.cff` : Métadonnées de citation.
 
-## 🧪 Testable Predictions
+## 🧪 Prédictions Testables
 
-1. CMB power-law index: \(\alpha \approx 1.618 \pm 0.1\).
-2. Galaxy correlation slope: \(\gamma(z) \approx 1.382 + 0.36 \log(1 + z) \pm 0.1\).
-3. Fundamental constant variation: \(\delta \phi \sim 10^{-5}\).
+1. Indice de puissance CMB : α ≈ 1,618 ± 0,1.
+2. Pente de corrélation des galaxies : γ(z) ≈ 1,382 + 0,36 log(1 + z) ± 0,1.
+3. Variation des constantes fondamentales : δφ ~ 10⁻⁵.
 
-## 📊 Key Equations
+## 📊 Équations Clés
 
-### Genesis Operator
-\[
-\mathcal{O} |\psi_n\rangle = F_n |\psi_n\rangle, \quad F_n = F_{n-1} + F_{n-2}, \quad F_0 = 1, \, F_1 = -1
-\]
+### Opérateur de Genèse
+O |ψₙ⟩ = Fₙ |ψₙ⟩, où Fₙ = Fₙ₋₁ + Fₙ₋₂, F₀ = 1, F₁ = -1
 
-### Fractal Dimension
-\[
-\dim_{\mathscr{F}}(\mathcal{U}_n) \approx \phi \approx 1.618
-\]
+### Dimension Fractale
+dim_F(Uₙ) ≈ φ ≈ 1,618
 
-### Lagrangian
-\[
-\mathcal{L}_n = \sqrt{-g} \left( \frac{R}{16\pi G} + \phi \langle \psi_n | \mathcal{O} | \psi_n \rangle \right)
-\]
+### Lagrangien
+Lₙ = √(-g) [R/(16πG) + φ ⟨ψₙ|O|ψₙ⟩]
 
-## 📚 How to Cite
+## 📚 Comment Citer
 
 ```bibtex
 @software{Herbin_Fractal_Cosmological_Model_2024,
   author = {Herbin, Sylvain},
   orcid = {0009-0001-3390-5012},
-  title = {{Fractal Cosmological Model: Unification via Antagonism and Fibonacci Structure}},
+  title = {{Modèle Cosmologique Fractal : Unification par Antagonisme et Structure de Fibonacci}},
   month = jul,
   year = 2024,
   publisher = {Zenodo},
