@@ -26,7 +26,7 @@ This fractal cosmological model unifies general relativity, quantum mechanics, a
 ## 🧪 Testable Predictions
 
 1. CMB power-law index: \(\alpha \approx 1.618 \pm 0.1\).
-2. Galaxy correlation slope: \(\gamma(z) \approx 1.382 + 0.36 \log(1+z) \pm 0.1\).
+2. Galaxy correlation slope: \(\gamma(z) \approx 1.382 + 0.36 \log(1 + z) \pm 0.1\).
 3. Fundamental constant variation: \(\delta \phi \sim 10^{-5}\).
 
 ## 📊 Key Equations
