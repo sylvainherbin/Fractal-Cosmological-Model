@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "title": "The Dynamic Fractal Cosmological Model: Formalism and Key Predictions",
+    "upload_type": "software",
+    "description": "This v1.4.0 of the Dynamic Fractal Cosmological Model introduces an evolving effective spacetime dimension, φ(z), to resolve major cosmological tensions. It achieves a best-fit Hubble constant of H₀ = 73.24 ± 0.42 km/s/Mpc (0.3σ agreement with SH0ES), and an unprecedented combined χ²/dof = 0.951 for selected datasets, representing a 7.1σ improvement over ΛCDM. The model also addresses the Lithium-7 problem (1.8σ agreement), features a dynamic dark energy equation of state and a novel dark matter-baryon coupling. Testable predictions are provided for future surveys like Euclid and Roman HLS, including matter power spectrum deviations and CMB µ-distortions. Find more details at www.phi-z.space.",
+    "creators": [
+      {
+        "name": "Herbin, Sylvain",
+        "affiliation": "Independent Researcher",
+        "orcid": "0009-0001-3390-5012"
+      }
+    ],
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "keywords": [
+      "cosmology",
+      "fractal dimension",
+      "Hubble tension",
+      "CMB",
+      "large-scale structure",
+      "dark energy",
+      "dark matter coupling",
+      "Lithium problem",
+      "beyond ΛCDM"
+    ],
+    "version": "v1.4.0",
+    "related_identifiers": [
+      {
+        "relation": "isSupplementTo",
+        "identifier": "https://github.com/sylvainherbin/Fractal-Cosmological-Model",
+        "scheme": "url"
+      }
+    ]
+  }
+}
